@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A16AB41289B9C32003B9FCC /* Capital_One_SES_HackathonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A16AB40289B9C32003B9FCC /* Capital_One_SES_HackathonApp.swift */; };
+		3A16AB43289B9C32003B9FCC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A16AB42289B9C32003B9FCC /* ContentView.swift */; };
+		3A16AB45289B9C34003B9FCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A16AB44289B9C34003B9FCC /* Assets.xcassets */; };
+		3A16AB48289B9C34003B9FCC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A16AB47289B9C34003B9FCC /* Preview Assets.xcassets */; };
+		3A16AB52289B9C34003B9FCC /* Capital_One_SES_HackathonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A16AB51289B9C34003B9FCC /* Capital_One_SES_HackathonTests.swift */; };
+		3A16AB5C289B9C34003B9FCC /* Capital_One_SES_HackathonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A16AB5B289B9C34003B9FCC /* Capital_One_SES_HackathonUITests.swift */; };
+		3A16AB5E289B9C34003B9FCC /* Capital_One_SES_HackathonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A16AB5D289B9C34003B9FCC /* Capital_One_SES_HackathonUITestsLaunchTests.swift */; };
+		3A2A8BAD289C49800069D969 /* ProfilePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2A8BAC289C49800069D969 /* ProfilePicker.swift */; };
+		3A2A8BC2289C69310069D969 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A2A8BC1289C69310069D969 /* LaunchScreen.storyboard */; };
+		3A2A8BC4289C69420069D969 /* Explanation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A2A8BC3289C69420069D969 /* Explanation.storyboard */; };
+		3A2A8BC6289C694A0069D969 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2A8BC5289C694A0069D969 /* HomeView.swift */; };
+		3A2A8BC8289C69530069D969 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2A8BC7289C69530069D969 /* WebView.swift */; };
+		3A2A8BCB289C695B0069D969 /* BankAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2A8BCA289C695B0069D969 /* BankAccount.swift */; };
+		3A2A8BCD289C69660069D969 /* BankInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2A8BCC289C69660069D969 /* BankInfo.swift */; };
+		3A2A8BCF289C69730069D969 /* LearnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2A8BCE289C69730069D969 /* LearnView.swift */; };
+		3A955F56289C81F8004AD85F /* CircularBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A955F55289C81F8004AD85F /* CircularBar.swift */; };
+		3A955F58289CBC67004AD85F /* BankAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A955F57289CBC67004AD85F /* BankAccountView.swift */; };
+		BA40CC6F289C2EC100C564AD /* HealthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA40CC6E289C2EC100C564AD /* HealthView.swift */; };
+		BA40CC78289C2EF700C564AD /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA40CC77289C2EF700C564AD /* SettingsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A16AB4E289B9C34003B9FCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A16AB35289B9C32003B9FCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A16AB3C289B9C32003B9FCC;
+			remoteInfo = "Capital One SES Hackathon";
+		};
+		3A16AB58289B9C34003B9FCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A16AB35289B9C32003B9FCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A16AB3C289B9C32003B9FCC;
+			remoteInfo = "Capital One SES Hackathon";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A16AB3D289B9C32003B9FCC /* Capital One SES Hackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Capital One SES Hackathon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A16AB40289B9C32003B9FCC /* Capital_One_SES_HackathonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Capital_One_SES_HackathonApp.swift; sourceTree = "<group>"; };
+		3A16AB42289B9C32003B9FCC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3A16AB44289B9C34003B9FCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A16AB47289B9C34003B9FCC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3A16AB4D289B9C34003B9FCC /* Capital One SES HackathonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Capital One SES HackathonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A16AB51289B9C34003B9FCC /* Capital_One_SES_HackathonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Capital_One_SES_HackathonTests.swift; sourceTree = "<group>"; };
+		3A16AB57289B9C34003B9FCC /* Capital One SES HackathonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Capital One SES HackathonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A16AB5B289B9C34003B9FCC /* Capital_One_SES_HackathonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Capital_One_SES_HackathonUITests.swift; sourceTree = "<group>"; };
+		3A16AB5D289B9C34003B9FCC /* Capital_One_SES_HackathonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Capital_One_SES_HackathonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3A2A8BAC289C49800069D969 /* ProfilePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePicker.swift; sourceTree = "<group>"; };
+		3A2A8BC1289C69310069D969 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A2A8BC3289C69420069D969 /* Explanation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Explanation.storyboard; sourceTree = "<group>"; };
+		3A2A8BC5289C694A0069D969 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3A2A8BC7289C69530069D969 /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		3A2A8BCA289C695B0069D969 /* BankAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankAccount.swift; sourceTree = "<group>"; };
+		3A2A8BCC289C69660069D969 /* BankInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BankInfo.swift; path = "Capital One SES Hackathon/BankInfo.swift"; sourceTree = SOURCE_ROOT; };
+		3A2A8BCE289C69730069D969 /* LearnView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LearnView.swift; sourceTree = "<group>"; };
+		3A955F55289C81F8004AD85F /* CircularBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularBar.swift; sourceTree = "<group>"; };
+		3A955F57289CBC67004AD85F /* BankAccountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankAccountView.swift; sourceTree = "<group>"; };
+		BA40CC6E289C2EC100C564AD /* HealthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthView.swift; sourceTree = "<group>"; };
+		BA40CC77289C2EF700C564AD /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A16AB3A289B9C32003B9FCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A16AB4A289B9C34003B9FCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A16AB54289B9C34003B9FCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A16AB34289B9C32003B9FCC = {
+			isa = PBXGroup;
+			children = (
+				3A16AB3F289B9C32003B9FCC /* Capital One SES Hackathon */,
+				3A16AB50289B9C34003B9FCC /* Capital One SES HackathonTests */,
+				3A16AB5A289B9C34003B9FCC /* Capital One SES HackathonUITests */,
+				3A16AB3E289B9C32003B9FCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A16AB3E289B9C32003B9FCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A16AB3D289B9C32003B9FCC /* Capital One SES Hackathon.app */,
+				3A16AB4D289B9C34003B9FCC /* Capital One SES HackathonTests.xctest */,
+				3A16AB57289B9C34003B9FCC /* Capital One SES HackathonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A16AB3F289B9C32003B9FCC /* Capital One SES Hackathon */ = {
+			isa = PBXGroup;
+			children = (
+				3A16AB40289B9C32003B9FCC /* Capital_One_SES_HackathonApp.swift */,
+				3A16AB42289B9C32003B9FCC /* ContentView.swift */,
+				3A955F57289CBC67004AD85F /* BankAccountView.swift */,
+				3A955F55289C81F8004AD85F /* CircularBar.swift */,
+				3A2A8BC1289C69310069D969 /* LaunchScreen.storyboard */,
+				3A2A8BC3289C69420069D969 /* Explanation.storyboard */,
+				BA40CC6E289C2EC100C564AD /* HealthView.swift */,
+				3A2A8BC7289C69530069D969 /* WebView.swift */,
+				3A2A8BC5289C694A0069D969 /* HomeView.swift */,
+				3A2A8BC9289C695B0069D969 /* Models */,
+				3A2A8BCE289C69730069D969 /* LearnView.swift */,
+				3A2A8BCC289C69660069D969 /* BankInfo.swift */,
+				BA40CC77289C2EF700C564AD /* SettingsView.swift */,
+				3A16AB44289B9C34003B9FCC /* Assets.xcassets */,
+				3A16AB46289B9C34003B9FCC /* Preview Content */,
+				3A2A8BAC289C49800069D969 /* ProfilePicker.swift */,
+			);
+			path = "Capital One SES Hackathon";
+			sourceTree = "<group>";
+		};
+		3A16AB46289B9C34003B9FCC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3A16AB47289B9C34003B9FCC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3A16AB50289B9C34003B9FCC /* Capital One SES HackathonTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A16AB51289B9C34003B9FCC /* Capital_One_SES_HackathonTests.swift */,
+			);
+			path = "Capital One SES HackathonTests";
+			sourceTree = "<group>";
+		};
+		3A16AB5A289B9C34003B9FCC /* Capital One SES HackathonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3A16AB5B289B9C34003B9FCC /* Capital_One_SES_HackathonUITests.swift */,
+				3A16AB5D289B9C34003B9FCC /* Capital_One_SES_HackathonUITestsLaunchTests.swift */,
+			);
+			path = "Capital One SES HackathonUITests";
+			sourceTree = "<group>";
+		};
+		3A2A8BC9289C695B0069D969 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3A2A8BCA289C695B0069D969 /* BankAccount.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A16AB3C289B9C32003B9FCC /* Capital One SES Hackathon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A16AB61289B9C34003B9FCC /* Build configuration list for PBXNativeTarget "Capital One SES Hackathon" */;
+			buildPhases = (
+				3A16AB39289B9C32003B9FCC /* Sources */,
+				3A16AB3A289B9C32003B9FCC /* Frameworks */,
+				3A16AB3B289B9C32003B9FCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Capital One SES Hackathon";
+			productName = "Capital One SES Hackathon";
+			productReference = 3A16AB3D289B9C32003B9FCC /* Capital One SES Hackathon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A16AB4C289B9C34003B9FCC /* Capital One SES HackathonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A16AB64289B9C34003B9FCC /* Build configuration list for PBXNativeTarget "Capital One SES HackathonTests" */;
+			buildPhases = (
+				3A16AB49289B9C34003B9FCC /* Sources */,
+				3A16AB4A289B9C34003B9FCC /* Frameworks */,
+				3A16AB4B289B9C34003B9FCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A16AB4F289B9C34003B9FCC /* PBXTargetDependency */,
+			);
+			name = "Capital One SES HackathonTests";
+			productName = "Capital One SES HackathonTests";
+			productReference = 3A16AB4D289B9C34003B9FCC /* Capital One SES HackathonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3A16AB56289B9C34003B9FCC /* Capital One SES HackathonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A16AB67289B9C34003B9FCC /* Build configuration list for PBXNativeTarget "Capital One SES HackathonUITests" */;
+			buildPhases = (
+				3A16AB53289B9C34003B9FCC /* Sources */,
+				3A16AB54289B9C34003B9FCC /* Frameworks */,
+				3A16AB55289B9C34003B9FCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A16AB59289B9C34003B9FCC /* PBXTargetDependency */,
+			);
+			name = "Capital One SES HackathonUITests";
+			productName = "Capital One SES HackathonUITests";
+			productReference = 3A16AB57289B9C34003B9FCC /* Capital One SES HackathonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A16AB35289B9C32003B9FCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					3A16AB3C289B9C32003B9FCC = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					3A16AB4C289B9C34003B9FCC = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 3A16AB3C289B9C32003B9FCC;
+					};
+					3A16AB56289B9C34003B9FCC = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 3A16AB3C289B9C32003B9FCC;
+					};
+				};
+			};
+			buildConfigurationList = 3A16AB38289B9C32003B9FCC /* Build configuration list for PBXProject "Capital One SES Hackathon" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A16AB34289B9C32003B9FCC;
+			productRefGroup = 3A16AB3E289B9C32003B9FCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A16AB3C289B9C32003B9FCC /* Capital One SES Hackathon */,
+				3A16AB4C289B9C34003B9FCC /* Capital One SES HackathonTests */,
+				3A16AB56289B9C34003B9FCC /* Capital One SES HackathonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A16AB3B289B9C32003B9FCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A2A8BC4289C69420069D969 /* Explanation.storyboard in Resources */,
+				3A16AB48289B9C34003B9FCC /* Preview Assets.xcassets in Resources */,
+				3A2A8BC2289C69310069D969 /* LaunchScreen.storyboard in Resources */,
+				3A16AB45289B9C34003B9FCC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A16AB4B289B9C34003B9FCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A16AB55289B9C34003B9FCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A16AB39289B9C32003B9FCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A955F58289CBC67004AD85F /* BankAccountView.swift in Sources */,
+				3A955F56289C81F8004AD85F /* CircularBar.swift in Sources */,
+				3A2A8BCD289C69660069D969 /* BankInfo.swift in Sources */,
+				3A2A8BCB289C695B0069D969 /* BankAccount.swift in Sources */,
+				BA40CC78289C2EF700C564AD /* SettingsView.swift in Sources */,
+				BA40CC6F289C2EC100C564AD /* HealthView.swift in Sources */,
+				3A2A8BAD289C49800069D969 /* ProfilePicker.swift in Sources */,
+				3A16AB43289B9C32003B9FCC /* ContentView.swift in Sources */,
+				3A2A8BCF289C69730069D969 /* LearnView.swift in Sources */,
+				3A2A8BC6289C694A0069D969 /* HomeView.swift in Sources */,
+				3A2A8BC8289C69530069D969 /* WebView.swift in Sources */,
+				3A16AB41289B9C32003B9FCC /* Capital_One_SES_HackathonApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A16AB49289B9C34003B9FCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A16AB52289B9C34003B9FCC /* Capital_One_SES_HackathonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A16AB53289B9C34003B9FCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A16AB5E289B9C34003B9FCC /* Capital_One_SES_HackathonUITestsLaunchTests.swift in Sources */,
+				3A16AB5C289B9C34003B9FCC /* Capital_One_SES_HackathonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A16AB4F289B9C34003B9FCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A16AB3C289B9C32003B9FCC /* Capital One SES Hackathon */;
+			targetProxy = 3A16AB4E289B9C34003B9FCC /* PBXContainerItemProxy */;
+		};
+		3A16AB59289B9C34003B9FCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A16AB3C289B9C32003B9FCC /* Capital One SES Hackathon */;
+			targetProxy = 3A16AB58289B9C34003B9FCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3A16AB5F289B9C34003B9FCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3A16AB60289B9C34003B9FCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A16AB62289B9C34003B9FCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Capital One SES Hackathon/Preview Content\"";
+				DEVELOPMENT_TEAM = 43BRNXK23T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ses.Capital-One-SES-Hackathon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A16AB63289B9C34003B9FCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Capital One SES Hackathon/Preview Content\"";
+				DEVELOPMENT_TEAM = 43BRNXK23T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ses.Capital-One-SES-Hackathon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3A16AB65289B9C34003B9FCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 43BRNXK23T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ses.Capital-One-SES-HackathonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Capital One SES Hackathon.app/Capital One SES Hackathon";
+			};
+			name = Debug;
+		};
+		3A16AB66289B9C34003B9FCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 43BRNXK23T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ses.Capital-One-SES-HackathonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Capital One SES Hackathon.app/Capital One SES Hackathon";
+			};
+			name = Release;
+		};
+		3A16AB68289B9C34003B9FCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 43BRNXK23T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ses.Capital-One-SES-HackathonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Capital One SES Hackathon";
+			};
+			name = Debug;
+		};
+		3A16AB69289B9C34003B9FCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 43BRNXK23T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ses.Capital-One-SES-HackathonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Capital One SES Hackathon";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A16AB38289B9C32003B9FCC /* Build configuration list for PBXProject "Capital One SES Hackathon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A16AB5F289B9C34003B9FCC /* Debug */,
+				3A16AB60289B9C34003B9FCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A16AB61289B9C34003B9FCC /* Build configuration list for PBXNativeTarget "Capital One SES Hackathon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A16AB62289B9C34003B9FCC /* Debug */,
+				3A16AB63289B9C34003B9FCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A16AB64289B9C34003B9FCC /* Build configuration list for PBXNativeTarget "Capital One SES HackathonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A16AB65289B9C34003B9FCC /* Debug */,
+				3A16AB66289B9C34003B9FCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A16AB67289B9C34003B9FCC /* Build configuration list for PBXNativeTarget "Capital One SES HackathonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A16AB68289B9C34003B9FCC /* Debug */,
+				3A16AB69289B9C34003B9FCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A16AB35289B9C32003B9FCC /* Project object */;
+}
