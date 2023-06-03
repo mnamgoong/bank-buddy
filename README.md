@@ -6,9 +6,13 @@ Bank Buddy is an interactive iOS app that gamifies budgeting and teaches financi
 
 ## How to Use
 🏠 **Home Page:** Visit your Bank Buddy, which represents your current bank account health, on the Home page.
+
 📓 **Explore and Learn:** Read informational articles by Capital One to increase your financial literacy.
+
 ❤️ **Health Statistics:** View the current status or "health" of your bank account.
+
 💳 **Financial Information:** View the details of your bank account. Our mock database includes bank account numbers 1020 (default), 613, and 3 for demonstration purposes.
+
 ⚙️ **Settings:** Manage your account settings and system preferences.
 
 ## Challenges and Accomplishments
